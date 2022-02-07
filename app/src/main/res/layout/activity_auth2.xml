@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".Auth2Activity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="63sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+
+        <GridLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/B9"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_9"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B1"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_1"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B2"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_2"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B3"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_3"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B4"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_4"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B5"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_5"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B6"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_6"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B7"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_7"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B8"
+                android:layout_height="64dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/button_sign_in"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="onClick1"
+                android:text="@string/_8"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </GridLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
